@@ -18,7 +18,19 @@
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": []
+      "problemMatcher": [{
+        "owner": "8051",
+        "fileLocation": "absolute",
+        "pattern":[
+          {
+            "regexp": "^(.*):(\\d+):\\ (.*):\\ (.*)$",
+            "file": 1,
+            "location": 2,
+            "severity": 3,
+            "message": 4
+          }
+        ]
+      }]
     },
     {
       "label": "Flash (Quartus SignalTap II)",
