@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "options": {
     "env": {
-      // Modify these paths to match the install locations for CrossIDE and Quartus on your system
+      // Modify this path to match the install location for CrossIDE on your system
       // Don't include trailing slashes
       "CROSSIDE_PATH": "C:\\CrossIDE"
     }
